@@ -33,7 +33,6 @@ $query = "SELECT * FROM $usertable";
  
 //Run the Query
 $result = mysql_query($query);
- 
 //If the query returned results, loop through
 // each result
 if($result)
